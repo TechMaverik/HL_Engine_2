@@ -1,0 +1,27 @@
+// cSpell Settings
+{
+    // Version of the setting file.  Always 0.2
+    "version": "0.2",
+    // language - current active spelling language
+    "language": "en",
+    // words - list of words to be always considered correct
+    "words": [
+        "pytest",
+        "webdriver_init",
+        "pyautogui",
+        "BIOSIG",
+        "ABLLPP",
+        "XYZDE",
+        "COGERT_AFIB",
+        "vidgear",
+        "Akhil",
+        "imread",
+        "imshow",
+        "imwrite",
+        "xfile",
+        "mydoc",
+        "textblob",
+        "playsound","pygame","pyttsx","bluetooth","poweroff"
+    ],
+
+}

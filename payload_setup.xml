@@ -1,0 +1,45 @@
+<HL_Engine>
+    <shelf>
+        <payload name="1">pyserial</payload>
+        <payload name="2">pygame</payload>
+        <payload name="3">opencv-python</payload>
+        <payload name="4">pyttsx3</payload>
+        <payload name="5">pyqt5</payload>
+        <payload name="6">playsound</payload>
+        <payload name="7">gTTS</payload>
+        <payload name="8">Pillow</payload>
+        <payload name="9">numpy</payload>
+        <payload name="10">secure-smtplib</payload>
+        <payload name="11">PyDictionary</payload>
+        <payload name="12">matplotlib</payload>
+        <payload name="13">pyzbar</payload>
+        <payload name="14">SpeechRecognition</payload>
+        <payload name="15">nltk</payload>
+        <payload name="16">textblob</payload>
+        <payload name="17">python-git</payload>
+        <payload name="18">subprocess.run</payload>
+        <payload name="19">wikipedia</payload>
+        <payload name="20">pybase64</payload>
+        <payload name="21">pytesseract</payload>
+        <payload name="22">pyowm</payload>
+        <payload name="23">opencv-contrib-python</payload>
+        <payload name="24">pipwin</payload>
+        <payload name="25">pandas</payload>
+        <payload name="26">google-search</payload>
+        <payload name="27">google</payload>
+        <payload name="28">multitasking</payload>
+        <payload name="29">flask</payload>
+        <payload name="30">scikit-learn</payload>
+        <payload name="31">git-python</payload>
+        <payload name="32">gif-for-cli</payload>
+        <payload name="33">firebase-admin</payload>
+        <payload name="34">firebase</payload>
+        <payload name="35">gcloud</payload>
+        <payload name="36">sseclient</payload>
+        <payload name="37">pycryptodome</payload>
+        <payload name="38">sseclient</payload>
+        <payload name="39">requests-toolbelt</payload>
+        <payload name="40">python_jwt</payload>
+        <payload name="41">playsound==1.2.2</payload>        
+    </shelf>
+</HL_Engine>
