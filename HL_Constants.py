@@ -1,3 +1,8 @@
+"""
+HL_Constants.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 ENCRYPTION_PATH = "HL_Crypto/key.txt"
 PAYLOAD_XML_PATH = "payload_setup.xml"
 PAYLOAD = "payload"

@@ -1,6 +1,8 @@
-"""HL_Engine_Image_Processing.py"""
-# author:Akhil P Jacob
-# HLDynamic-Integrations
+"""
+HL_Engine_Image_Processing.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 import cv2
 from PIL import Image
 import numpy

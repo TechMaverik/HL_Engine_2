@@ -1,6 +1,8 @@
-"""HL_Engine_EnvironmentSetup.py"""
-# @author:Er.Akhil P Jacob
-# HLEngine Environmental settings
+"""
+HL_Engine_EnvironmentSetup.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 import subprocess
 import sys
 import time

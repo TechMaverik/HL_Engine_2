@@ -1,4 +1,8 @@
-"""HL_Engine_Cipher.py"""
+"""
+HL_Engine_Cipher.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 from HL_Constants import *
 import string
 

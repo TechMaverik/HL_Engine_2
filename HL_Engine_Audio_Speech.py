@@ -1,6 +1,8 @@
-"""HL_Engine_sR.py"""
-# author:Akhil P Jacob
-# HLDynamic-Integrations
+"""
+HL_Engine_sR.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 import pygame
 import pyttsx3
 import speech_recognition as sr

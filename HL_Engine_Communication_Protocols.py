@@ -1,6 +1,8 @@
-"""HL_Engine_Communication_Protocols.py"""
-# author:Akhil P Jacob
-# HLDynamic-Integrations
+"""
+HL_Engine_Communication_Protocols.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 import serial
 import smtplib
 import os

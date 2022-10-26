@@ -1,6 +1,8 @@
-"""HL_Engine_SQLite_Processing.py"""
-# author:Akhil P Jacob
-# HLDynamic-Integrations
+"""
+HL_Engine_SQLite_Processing.py
+Author:Akhil P Jacob
+HLDynamic-Integrations
+"""
 import sqlite3
 
 
@@ -35,7 +37,7 @@ class SQLiteProcessingEngine:
             c = conn.cursor()
             c.execute(query)
             conn.commit()
-            return "HLEngine:Cleared all Data"
+            return True
         except:
             return False
 
