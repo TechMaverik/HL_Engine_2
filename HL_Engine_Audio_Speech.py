@@ -7,7 +7,7 @@ import pygame
 import pyttsx3
 import speech_recognition as sr
 from textblob import TextBlob
-from HL_Constants import *
+from HL_CommonDependency import *
 from gtts import gTTS
 from playsound import playsound as play_music
 
@@ -20,10 +20,10 @@ class AudioSpeechEngine:
         try:
             r = sr.Recognizer()
             with sr.Microphone() as source:
-                print(SAY_SOMETHING)
+                display_message(SAY_SOMETHING)
                 audio = r.listen(source)
             try:
-                print("HLEngine:You said: " + r.recognize_google(audio))
+                display_message("HLEngine:You said: " + r.recognize_google(audio))
                 content = r.recognize_google(audio)
                 return content
             except sr.UnknownValueError:

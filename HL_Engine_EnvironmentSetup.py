@@ -7,7 +7,7 @@ import subprocess
 import sys
 import time
 from xml.dom import minidom
-from HL_Constants import *
+from HL_CommonDependency import *
 
 
 class EnvironmentalSetup:
@@ -22,13 +22,13 @@ class EnvironmentalSetup:
         xfile.write("")
         xfile.close()
         for elem in payload:
-            print(elem.firstChild.data)
+            display_message(elem.firstChild.data)
             package = str(elem.firstChild.data)
             try:
-                print(COMMENCING_INSTALLATION)
+                display_message(COMMENCING_INSTALLATION)
                 subprocess.check_call([sys.executable, "-m", "pip", "install", package])
             except:
-                print(INSTALLATION_FAILED)
+                display_message(INSTALLATION_FAILED)
                 xfile = open(LOG_REPORT, "a")
                 xfile.write(package)
                 xfile.close()
