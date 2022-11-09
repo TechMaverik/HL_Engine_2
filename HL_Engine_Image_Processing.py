@@ -5,7 +5,7 @@ HLDynamic-Integrations
 """
 import cv2
 from PIL import Image
-import numpy
+import numpy as np
 from vidgear.gears.stabilizer import Stabilizer
 from vidgear.gears import WriteGear
 
@@ -39,7 +39,7 @@ class ImageProcessingEngine:
         except:
             return False
 
-    def track_object_from_video(self, cascade_path, camera, frame_name):
+    def track_object_from_video(self, cascade_path, camera, frame_name,mode):
         """Track objects from video"""
         try:
             cap = cv2.VideoCapture(camera)
@@ -49,8 +49,9 @@ class ImageProcessingEngine:
                 ret, frame = cap.read()
                 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
                 net = faceCascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
-                if len(net) >= 2:
-                    return True
+                if mode=="Catch":
+                    if len(net) >= 2:
+                        return True
                 for (x, y, w, h) in net:
                     cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 cv2.imshow(framer, frame)
@@ -92,7 +93,8 @@ class ImageProcessingEngine:
             threshold = 0.8
             loc = np.where(res >= threshold)
             for pt in zip(*loc[::-1]):
-                cv2.rectangle(img_rgb, pt, (pt[0] + w, pt[1] + h), (0, 0, 255), 2)
+                cv2.rectangle(img_rgb, pt, (pt[0] + h, pt[1] + w), (255, 0, 0), 1)
             cv2.imwrite(result_image_path, img_rgb)
+            return True
         except:
             return False
