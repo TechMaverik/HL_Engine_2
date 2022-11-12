@@ -1,5 +1,5 @@
 # HL_Engine_2
-## Hyper Library Dynamic Integration Tools Collections
+<img src="HL_Flags/HLEngine.png" alt="Alt text" title="Optional title">
 
 ## Features
 ### Image Processing
@@ -21,6 +21,14 @@
 ### Data Ciphering
 * Data Encryption
 * Data Decryption
+
+## INSTALLATION
+* Install the latest version on python
+* Clone this repository to a directory
+* Open terminal inside the HL_Engine 2 repository
+* Type <i> "python setup.py" </i> and press Enter
+## <i>Note:
+Make sure Internet is connected while running the setup. </i>
 
 |BY|EMAIL|LINKED IN
 |-------|-----|---------|
