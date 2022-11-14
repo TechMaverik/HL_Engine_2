@@ -1,5 +1,5 @@
 # HL_Engine_2
-<img src="HL_Flags/HLEngine.png" alt="Alt text" title="Optional title">
+<img src="HL_Flags/HLEngine.png" alt="Alt text" title="Optional title" width="250">
 
 ## FEATURES
 ### Image Processing
@@ -36,6 +36,8 @@ Make sure Internet is connected while running the setup. </i>
 * <image src="path.JPG" alt="Cant Display">
 * Create a new python script and import the HL_Engine2 library.
 * ENJOY !!!
+
+###<b> <i>Refer sample for more details </i> </b>
 
 |BY|EMAIL|LINKED IN
 |-------|-----|---------|
