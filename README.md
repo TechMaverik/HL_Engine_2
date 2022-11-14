@@ -33,7 +33,7 @@ Make sure Internet is connected while running the setup. </i>
 ## USAGE
 * Create a project directory.
 * Make a copy of HL_Engine 2 and paste it inside the project directory.
-* <image src="path.JPG" alt="Cant Display">
+<image src="path.JPG" alt="Cant Display">
 * Create a new python script and import the HL_Engine2 library.
 * ENJOY !!!
 
