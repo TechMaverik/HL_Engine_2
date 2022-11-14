@@ -7,9 +7,9 @@ import pygame
 import pyttsx3
 import speech_recognition as sr
 from textblob import TextBlob
-from HL_CommonDependency import *
 from gtts import gTTS
 from playsound import playsound as play_music
+from HL_Engine_2.HL_CommonDependency import *
 
 
 class AudioSpeechEngine:
