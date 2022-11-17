@@ -16,6 +16,8 @@ RATE_OF_SPEECH = 125
 BAUD_RATE = 9600
 WELCOME_MSG = "\n\n[        HL_ENGINE 2.0 SETUP         ] \n "
 INSTALLATION_COMPLETED = "\n\n[        HL_ENGINE 2.0 INSTALLATION COMPLETED         ] \n "
+WLAN_NETWORK_SCANNER = "WLAN_Network_Scanner"
+ACTIVE_DEVICES_LOG = "active_devices.txt"
 
 
 def display_message(MSG):
