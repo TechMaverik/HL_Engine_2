@@ -1,5 +1,8 @@
 # HL_Engine_2
-<img src="HL_Flags/HLEngine.png" alt="Alt text" title="Optional title" width="250">
+<img src="HL_Flags/HLEngine.png" alt="Alt text" title="Optional title" width="250"/>
+
+## WHY HL_ENGINE?
+HL Engine is a collection of opensource module functionalities that can be integrated with various python based applications. The aim of this platform is to reduce the code lines without compromising the functionality. You can find the sample usage under the "Sample" directory.
 
 ## FEATURES
 ### Image Processing
@@ -21,6 +24,11 @@
 ### Data Ciphering
 * Data Encryption
 * Data Decryption
+* Custom Key
+
+### Network Tools
+* WiFi Scanner
+* Connected Device Scanner
 
 ## INSTALLATION
 * Install the latest version on python
