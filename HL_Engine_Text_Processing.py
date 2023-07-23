@@ -33,9 +33,9 @@ class TextProcessingEngine:
             text = pytesseract.image_to_string(Image.open(image_path))
             return(text)
         except:
-            return ("HLEngine:Error cant extract data from image")
+            return ("HLEngine: Make sure tesseract ocr is installed for deb:'sudo apt install tesseract-ocr -y','sudo apt install tesseract-ocr-all -y'")
 
-    def extract_words_from_sentence(self,sentence_param):
+    def extract_words_from_sentence(self,sentence_param): #Tested OK
         """extract words from sentence"""
         try:
             sentence=str(sentence_param)
@@ -64,7 +64,7 @@ class TextProcessingEngine:
         except:
             return ('HLEngine:microphone not connected')
 
-    def sentimental_analysis(self,data_string):
+    def sentimental_analysis(self,data_string): 
         """sentimental analysis"""
         try:
             score=TextBlob(data_string)
