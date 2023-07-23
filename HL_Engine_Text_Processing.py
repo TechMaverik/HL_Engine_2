@@ -20,7 +20,7 @@ class TextProcessingEngine:
     def search_wikipedia(self,content_to_search):
         """search wikipedia for contents"""
         try:
-            return(wikipedia.summary(param))
+            return(wikipedia.summary(content_to_search))
         except:
             return ("HLEngine:Error in executing search_wikipedia....")    
         
