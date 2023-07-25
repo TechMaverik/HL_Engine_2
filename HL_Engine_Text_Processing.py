@@ -39,7 +39,7 @@ class TextProcessingEngine:
         """extract words from sentence"""
         try:
             sentence=str(sentence_param)
-            first, middle, last = sent.split()           
+            first, middle, last = sentence_param.split()           
             return(first,middle,last)
         except:
             return ("HLEngine:Error in executing extract_words_from_sentence....")

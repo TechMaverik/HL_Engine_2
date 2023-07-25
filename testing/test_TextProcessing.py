@@ -1,9 +1,11 @@
 import pytest
-from HL_Engine_2 import HL_Engine_Text_Processing
+import sys
+sys.path.append('HL_Engine_2') # Adjust system path as per requirement
+from HL_Engine_2.HL_Engine_Text_Processing import TextProcessingEngine
 
 @pytest.fixture
 def Engine():
-    Engine=HL_Engine_Text_Processing.TextProcessingEngine()
+    Engine=TextProcessingEngine()
     return (Engine)
 
 def test_search_wiki(Engine):
