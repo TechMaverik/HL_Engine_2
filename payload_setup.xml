@@ -42,5 +42,6 @@
         <payload name="40">python_jwt</payload>
         <payload name="41">playsound==1.2.2</payload>      
         <payload name="42">python-nmap</payload>  
+        <payload name="43">pyfirmata</payload>
     </shelf>
 </HL_Engine>

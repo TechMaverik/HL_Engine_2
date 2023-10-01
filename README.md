@@ -20,6 +20,7 @@ HL Engine is a collection of opensource module functionalities that can be integ
 * USB Auto detection
 * Send Serial Data
 * Receive Serial Data
+* Pyfirmata
 
 ### Data Ciphering
 * Data Encryption
